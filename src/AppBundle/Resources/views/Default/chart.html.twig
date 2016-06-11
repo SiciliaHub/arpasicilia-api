@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <title>ARPA OpenDataSicilia Project </title>
+</head>
+
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+
+<script src="//code.highcharts.com/4.1.8/highcharts.js"></script>
+<script src="//code.highcharts.com/4.1.8/modules/exporting.js"></script>
+<script type="text/javascript">
+    {{ chart(chart) }}
+</script>
+<link rel="stylesheet" href="http://bootswatch.com/cerulean/bootstrap.min.css" media="screen">
+
+<body>
+
+<div class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <h3 style="color:white">Open Data Sicilia - ARPA Project</h3>
+
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="page-header" id="banner">
+        <div class="row">
+            <div class="col-lg-12">
+                <h1>Indice di qualità dell'aria</h1>
+                <div id="linechart" style="min-width: 400px; height: 600px; margin: 0 auto"></div>
+
+                <a target="blank" href="http://www.arpa.vda.it/it/612-menu-meteorologia-previsioni/previsioni-di-qualita-dellaria/975/1831">Informazioni sull' Indice di Qualità dell'Aria (IQA)</a>
+            </div>
+        </div>
+    </div>
+</div>
+</body>

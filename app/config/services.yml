@@ -1,0 +1,8 @@
+parameters:
+#    parameter_name: value
+
+services:
+    arpa.handler:
+        class:  AppBundle\Handler\ArpaHandler
+        arguments: [ "@doctrine.orm.entity_manager" ]
+

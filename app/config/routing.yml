@@ -1,0 +1,20 @@
+api:
+    type: rest
+    prefix: /api
+    resource: "@AppBundle/Resources/config/routes.yml"
+
+
+dashboard:
+    path:     /dashboard
+    defaults: { _controller: AppBundle:Default:chart }
+    methods:  [GET]
+
+
+homepage:
+    path:     /
+    defaults: { _controller: AppBundle:Default:homepage }
+    methods:  [GET]
+
+
+
+

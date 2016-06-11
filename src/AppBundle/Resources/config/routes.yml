@@ -1,0 +1,4 @@
+api_stazione:
+    type: rest
+    resource: "AppBundle\Controller\ApiController"
+    name_prefix:  api_1_ # naming collision
