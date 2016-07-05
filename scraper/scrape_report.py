@@ -71,7 +71,7 @@ try:
 except:
     pass
 
-url = 'http://88.53.168.210/Bollettino2/MAria_report.xls'
+url = 'http://www.arpa.sicilia.it/storage/MAria_report.xls'
 print "Downloading Maria report from ARPA Sicilia Website"
 r = requests.get(url)
 with open("report.xls", "wb") as code:
